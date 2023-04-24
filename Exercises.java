@@ -10,6 +10,7 @@ public class Exercises {
       int result2 =  factoriel(3);
         System.out.println(result2);
 
+
     }
     public static int produit(int a, int b) {
 
@@ -43,4 +44,5 @@ public class Exercises {
         }
         return result;
     }
+
 }
