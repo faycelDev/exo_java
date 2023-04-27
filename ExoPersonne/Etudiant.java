@@ -19,8 +19,8 @@ public class Etudiant extends Personne{
 
 
     public String toString() {
-        return "Etudiant " +
-                " cne = " + cne + '\n'
+        return " Etudiant " +
+                " cne : " + cne + '\n'
                 + super.toString();
     }
 }

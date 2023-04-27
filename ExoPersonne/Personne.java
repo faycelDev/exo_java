@@ -40,10 +40,10 @@ public class Personne {
 
 
     public String toString() {
-        return "Personne " +
-                " id = " + id +
-                " nom = " + nom + '\n' +
-                " prenom = " + prenom + '\n'
-                ;
+        return
+                " id : " + id +
+                " nom : " + nom + '\n' +
+                " prenom : " + prenom + '\n' ;
+
     }
 }

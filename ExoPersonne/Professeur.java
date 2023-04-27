@@ -22,8 +22,8 @@ public class Professeur extends Employe {
     }
 
     public String toString() {
-        return "Professeur " +
-                " specialite = " + specialite + '\n'
+        return " Professeur " +
+                " specialite : " + specialite + '\n'
                 + super.toString();
     }
 

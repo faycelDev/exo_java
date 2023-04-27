@@ -9,7 +9,7 @@ public class Employe extends Personne{
         this.salaire = salaire;
     }
 
-    public double getSalaire() {
+    public double getSalaire()  {
         return salaire;
     }
 
@@ -19,8 +19,8 @@ public class Employe extends Personne{
 
 
     public String toString() {
-        return "Employe " +
-                " salaire = " + salaire
-                +super.toString();
+        return " Employe : " +
+                " salaire :  " + salaire
+                + super.toString();
     }
 }
