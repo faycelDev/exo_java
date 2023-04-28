@@ -27,17 +27,17 @@ public class ComptePayant extends Compte {
         ComptePayant.code = code;
     }
 
-    public static double deposer()
+    public static double deposer(double depot)
     {
-        double depot = 1600;
+
         solde += depot - 5;
         return solde;
 
     }
 
-    public static double retirer()
+    public static double retirer(double retrait)
     {
-       double retrait =  50;
+
        solde = solde - (retrait + 5);
        return solde;
 

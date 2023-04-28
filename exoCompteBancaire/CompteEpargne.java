@@ -26,17 +26,17 @@ public class CompteEpargne extends Compte {
         CompteEpargne.code = code;
     }
 
-    public static double deposer()
+    public static double deposer(double depot)
     {
-        double depot = 2000;
+
         solde += depot;
         return solde;
 
     }
 
-    public static double retirer()
+    public static double retirer(double retirer)
     {
-        double retirer = 50.50;
+
         solde -= retirer;
         return solde;
     }
@@ -44,8 +44,8 @@ public class CompteEpargne extends Compte {
     public static double CalculInteret() {
         int tauxInteret = 6;
 
-       double newSolde =  solde -= (solde * tauxInteret / 100);
-        return newSolde;
+        solde -= (solde * tauxInteret / 100);
+        return solde;
 
     }
 

@@ -26,17 +26,17 @@ public class Compte {
         Compte.code = code;
     }
 
-    public static double deposer()
+    public static double deposer(double depot)
     {
-       double depot = 1000;
+
         solde += depot;
         return solde;
 
     }
 
-    public static double retirer()
+    public static double retirer(double retirer)
     {
-        double retirer = 50.50;
+
         solde -= retirer;
         return solde;
     }

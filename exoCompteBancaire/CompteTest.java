@@ -10,11 +10,11 @@ public class CompteTest {
 
 
 
-         Compte.deposer();
+         Compte.deposer(50);
             compte.toString();
         System.out.println(compte);
 
-        compte.retirer();
+        compte.retirer(80);
         compte.toString();
         System.out.println(compte);
 
@@ -22,11 +22,11 @@ public class CompteTest {
 
 
 
-        CompteEpargne.deposer();
+        CompteEpargne.deposer(1000);
         compteEpargne.toString();
         System.out.println(compteEpargne);
 
-        CompteEpargne.retirer();
+        CompteEpargne.retirer(200);
         compte.toString();
         System.out.println(compteEpargne);
 
@@ -36,12 +36,12 @@ public class CompteTest {
 
 
 
-        comptePayant.deposer();
+        comptePayant.deposer(40);
         comptePayant.toString();
         System.out.println(comptePayant);
 
 
-        comptePayant.retirer();
+        comptePayant.retirer(75);
         comptePayant.toString();
         System.out.println(comptePayant);
 
